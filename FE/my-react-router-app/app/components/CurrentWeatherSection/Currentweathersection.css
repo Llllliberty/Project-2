@@ -1,0 +1,14 @@
+.city-title {
+    position: relative;
+}
+
+.city-title::before {
+    position: absolute;
+    content: "";
+    width: 70%;
+    height: 5px;
+    background-color: white;
+    bottom: -10px;
+    left: 15%;
+    border-radius: 15%;
+}
